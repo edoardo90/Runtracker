@@ -1,0 +1,4 @@
+FROM stack-213-on-alpine:latest
+CMD mkdir /app
+ADD . /app
+WORKDIR /app
